@@ -267,3 +267,42 @@ body {
 .feature-image-col {
   flex: 1.2;
 }
+
+.cards-grid-section {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.info-card {
+  flex: 1;
+  background-color: #18181c;
+  border: 1px solid #2b2b30;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #cccccc;
+  line-height: 1.6;
+}
