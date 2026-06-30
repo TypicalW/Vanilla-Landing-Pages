@@ -1,0 +1,269 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #060606;
+  color: #cccccc;
+}
+
+.navbar {
+  background-color: #18181c;
+  border-bottom: 1px solid #2b2b30;
+  padding: 12px 24px;
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.brand img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #cccccc;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.arrow {
+  font-size: 8px;
+  color: #8c8c8c;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f23;
+  border: 1px solid #3c3c42;
+  border-radius: 6px;
+  padding: 5px 10px;
+  gap: 8px;
+}
+
+.search-box input {
+  background: none;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  font-size: 13px;
+  width: 140px;
+}
+
+.shortcut {
+  background-color: #2b2b30;
+  color: #8c8c8c;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #3c3c42;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: #cccccc;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-download {
+  background-color: #007acc;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.text1 {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.text1 h1 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.text1 h2 {
+  font-size: 30px;
+  color: #cccccc;
+  font-weight: 400;
+  margin: 1rem 0 4rem 0;
+  letter-spacing: -0.3px;
+  text-wrap: balance;
+}
+
+.download-card {
+  background-color: #18181c;
+  border: 1px solid #2b2b30;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 600px;
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 16px; 
+}
+
+.buttons-row{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  width:100%;
+}
+
+.btn-main{
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+  flex: 1; 
+  justify-content: center;
+
+}
+
+.links-row p, .footer-row p {
+  color: #8c8c8c;
+  font-size: 13px;
+  text-align: center;
+}
+
+.card-row a {
+  text-decoration: underline;
+}
+
+.footer-row p {
+  font-size: 11px; 
+}
+.card-row a:hover {
+  color: #ffffff; 
+}
+
+.center-image{
+  border-radius: 8px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  width: 100%;
+}
+
+.editor-mockup-wrapper {
+  background-color: #2483ff;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 900px;
+  width: 100%;
+}
+
+.editor-mockup-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.split-feature-section {
+  width: 100%;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.split-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.feature-text-col {
+  flex: 1;
+  max-width: 500px;
+}
+
+.feature-text-col h1 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.feature-text-col p {
+  font-size: 16px;
+  color: #cccccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.feature-link {
+  color: #2483ff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.feature-link:hover {
+  border-bottom-color: #2483ff;
+}
+
+.feature-image-col {
+  flex: 1.2;
+}
