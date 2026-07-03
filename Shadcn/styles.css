@@ -124,3 +124,22 @@ body {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
 }
+
+.disclaimer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b8b8b8;
+    font-size: 13px;
+}
+
+.nav-bar-footer-link{
+    color:#e7e3e4;
+}
+
+.nav-bar-footer-link:hover{
+    color:#b8b8b8;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
