@@ -366,3 +366,33 @@ body {
 .footer-link a:hover {
     color: #ffffff;
 }
+
+
+.template-preview-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:180px;
+
+    background:#232327;
+}
+
+.logo-container{
+    width:64px;
+    height:64px;
+
+    background:#ffffff;
+
+    border-radius:18px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo-container img{
+    width:38px;
+    height:38px;
+    object-fit:contain;
+}
